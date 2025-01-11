@@ -1,0 +1,44 @@
+Hola, muchas gracias por usar mi script / programa, aquí toda la información acerca de él:
+
+AUTOR: ANKHAL
+
+Objetivo:
+	
+	Este script / Programa ayuda a crear un backup completamente personalizado en el directorio en donde estés o en un directorios especifico.
+	Este puede ser modificado para que envíe todos los backups a un servidor remoto o a la nube de manera automática. Los backups de archivos
+	se copian (Sin eliminar el original) y el de los directorios/carpetas primero se comprimen con la herramienta "7zip" y luego se mueven al
+	directorio destino, que en este caso son todas las variantes a "Documentos/".
+
+Notas importantes:
+
+	Para poder usar el programa se debe tener instalado la herramienta "7zip", de lo contrario no se podrá usar el programa (A menos que el
+	usuario modifique el script). Es muy fácil, solo debes saber el gestor de paquetes de tu distro y ejecutar algo tal que así:
+
+	"sudo apt install 7zip" -> Debian/Ubuntu
+
+	Para usar el programa de manera eficiente crear previamente una carpeta variante a "Documentos"/"Documents" de lo contrarió los backups
+	irán directamente a la carpeta "HOME" del usuario (Será diferente si el usuario modifica el script)
+
+	Recuerda tener permisos en la carpeta donde desees usar este programa.
+
+Recomendaciones:
+
+	Para usar este programa simplemente puedes ejecutar este script en donde quieras y será lo mismo, sin embargo si deseas aprovechar a full 
+	la funcionalidad de "Buscar en dir actual" se recomienda agregar este script en la variable "$PATH", o agregar un alias para que se 
+	ejecute automáticamente.
+
+	Si deseas que el script sea muy eficiente y no quieres esperar puedes eliminar TODOS los "sleeps" que tiene el script. (Esto se lo agregué
+	para darle más "realismo" al programa)
+
+	Para poder salir del programa selecciona la opción correspondiente en el menú interáctivo.
+
+Comunidad:
+
+	El script/programa es completamente libre, así que puedes modificarlo y añadirle muchas más funciones y luego reedistribuirlo, pero 
+	por favor sugieranme en cosas que me equivoqué, o en cosas que no tuvierón que haber estado (como los sleeps).
+
+	También puedes contribuir al proyecto y ayudarme a sacar muchas más funcionalidades e ir sacando versiones recurrentemente.
+
+Contacto: 
+	
+	julibroo91@gmail.com
