@@ -1,16 +1,16 @@
 # BACKUPS_LINUX
-The script allows to create custom backups in the current directory or in a specific directory.
-## Install
+El script permite crear copias de seguridad personalizadas en el directorio actual o en un directorio específico.
+## Instalación
 ```bash
 git clone https://github.com/alkahe-da/backups-linux && cd backups-linux && chmod +x backups_.sh
 ```
-## Dependencies
-You need to have "7zip" installed and have a variant of "Documents".
+## Dependencias
+Necesitas tener instalado “7zip” y tener una variante de “Documentos”.
 ```bash
 sudo apt install 7zip && mkdir ~/Documents
 ```
 ## Test
-To run the script.
+Para ejecutar el script.
 ```bash
 ./backups_.sh
 ```
